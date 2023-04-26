@@ -1,4 +1,0 @@
-SetEnvIf Referer "^https://sinup.sample.jp" ref_ok
-Order Deny,Allow
-Deny from all
-Allow from env=ref_ok
